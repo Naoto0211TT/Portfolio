@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .car-card,
         .interest-card,
         .timeline-item,
-        .skill-item
+        .skill-card
     `);
 
     animatedElements.forEach((el, index) => {
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // stagger effect（連続する要素に遅延を追加）
         if (el.classList.contains('work-card') || 
             el.classList.contains('gallery-item') ||
-            el.classList.contains('skill-item')) {
+            el.classList.contains('skill-card')) {
             el.style.transitionDelay = `${(index % 6) * 100}ms`;
         }
         
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ========================================
     // Skills Counter Animation (Optional)
     // ========================================
-    const skillItems = document.querySelectorAll('.skill-item');
+    const skillItems = document.querySelectorAll('.skill-card');
     
     const skillObserver = new IntersectionObserver((entries) => {
         entries.forEach((entry, index) => {
