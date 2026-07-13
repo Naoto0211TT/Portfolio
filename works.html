@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="作品一覧 - これまでの開発実績をご紹介">
+    <title>Works | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Portfolio</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="works.html" class="nav-link active">Works</a></li>
+                <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Works</h1>
+            <p class="page-subtitle"><class="page-subtitle">実務・研修・個人制作で取り組んだ内容をご紹介します</p>
+        </div>
+    </section>
+
+    <!-- Works Grid -->
+<section class="works-section">
+    <div class="container">
+        <div class="works-grid">
+
+            <!-- Work Item 1 -->
+            <article class="work-card">
+                <div class="work-image">
+                    <div class="work-placeholder">
+                        <span>Portfolio Site</span>
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-content">
+                    <h3 class="work-title">転職用自己紹介サイト</h3>
+
+                    <p class="work-description">
+                        自身の経歴やスキル、制作経験、人柄を伝えるために制作した
+                        ポートフォリオサイトです。
+                        HTML、CSS、JavaScriptを使用し、
+                        複数ページ構成やレスポンシブ表示、
+                        スクロールアニメーションを実装しています。
+                    </p>
+
+                    <div class="work-links">
+                        <a href="index.html" class="work-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            サイトを見る
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Work Item 2 -->
+            <article class="work-card">
+                <div class="work-image">
+                    <div class="work-placeholder">
+                        <span>React Wiki App</span>
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-content">
+                    <h3 class="work-title">Wikiアプリ</h3>
+
+                    <p class="work-description">
+                        フロントエンド研修の課題として制作したWikiアプリです。
+                        Reactを使用し、記事の表示、作成、編集、削除などの
+                        基本的なCRUD機能を実装しました。
+                    </p>
+
+                    <div class="work-links">
+                        <span class="work-link">
+                            <i class="fas fa-lock"></i>
+                            詳細準備中
+                        </span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Work Item 3 -->
+            <article class="work-card">
+                <div class="work-image">
+                    <div class="work-placeholder">
+                        <span>LP Maintenance</span>
+                    </div>
+                    <div class="work-overlay">
+                        <div class="work-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-content">
+                    <h3 class="work-title">大手企業のLP修正業務</h3>
+
+                    <p class="work-description">
+                        大手クレジットカード会社のランディングページ修正業務に
+                        携わりました。
+                        HTML、CSS、JavaScriptを使用し、
+                        既存ページの修正や表示確認を行いました。
+                        守秘義務のため、画面や詳細情報は掲載していません。
+                    </p>
+
+                    <div class="work-links">
+                        <span class="work-link">
+                            <i class="fas fa-building"></i>
+                            実務経験
+                        </span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Naoto YAMAZAKI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
