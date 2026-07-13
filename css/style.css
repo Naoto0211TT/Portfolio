@@ -626,6 +626,54 @@ p {
     margin-bottom: 0;
 }
 
+.career-details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-5);
+  margin-top: var(--spacing-6);
+  padding-left: var(--spacing-5);
+  border-left: 2px solid var(--gray-200);
+}
+
+.career-detail-item {
+  position: relative;
+  padding: var(--spacing-5);
+  background-color: var(--gray-50);
+  border-radius: var(--radius-lg);
+}
+
+.career-detail-item::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: calc(var(--spacing-5) * -1 - 5px);
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.career-detail-period {
+  display: inline-block;
+  margin-bottom: var(--spacing-2);
+  font-size: var(--font-size-xs);
+  color: var(--gray-500);
+  font-weight: 500;
+}
+
+.career-detail-item h4 {
+  margin-bottom: var(--spacing-2);
+  font-size: var(--font-size-base);
+  color: var(--gray-800);
+}
+
+.career-detail-item p {
+  margin-bottom: 0;
+  font-size: var(--font-size-sm);
+  color: var(--gray-600);
+  line-height: 1.8;
+}
+
 /* ========================================
    Contact Section
 ======================================== */
@@ -837,6 +885,52 @@ p {
     text-align: center;
     max-width: 700px;
     margin: 0 auto var(--spacing-12);
+}
+
+.photography-achievements {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+    justify-content: center;
+    gap: var(--spacing-6);
+    margin-bottom: var(--spacing-12);
+}
+
+.achievement-card {
+    padding: var(--spacing-6);
+    background-color: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.achievement-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.achievement-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto var(--spacing-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-50);
+    border-radius: 50%;
+    color: var(--primary-color);
+    font-size: var(--font-size-xl);
+}
+
+.achievement-card h3 {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-2);
+}
+
+.achievement-card p {
+    font-size: var(--font-size-sm);
+    color: var(--gray-500);
+    margin-bottom: 0;
 }
 
 .hobby-icon {
