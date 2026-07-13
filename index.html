@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="ポートフォリオサイト - Webエンジニアとしての自己紹介"
+      content="山崎尚登のポートフォリオサイト。フロントエンド開発の経験、制作実績、経歴、写真活動を紹介。"
     />
-    <title>Portfolio | NaotoYAMAZAKI</title>
+    <title>Portfolio | Naoto YAMAZAKI</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,8 +45,11 @@
         <div class="hero-text">
           <p class="hero-greeting">Hello, I'm</p>
           <h1 class="hero-name">Naoto YAMAZAKI</h1>
-          <p class="hero-title">Web Engineer</p>
-          <p class="hero-description">フロントエンドエンジニアです。</p>
+          <p class="hero-title">Frontend Engineer</p>
+          <p class="hero-description">
+            デザインとユーザー視点を大切に、<br />
+            分かりやすく使いやすい画面づくりを目指しています。
+          </p>
           <div class="hero-buttons">
             <a href="works.html" class="btn btn-primary">View Works</a>
             <a href="#contact" class="btn btn-secondary">Contact Me</a>
@@ -100,7 +103,7 @@
                   </tr>
                   <tr>
                     <th>趣味</th>
-                    <td>写真、車、旅行、オーディオ</td>
+                    <td>写真、車、オーディオ、将棋など</td>
                   </tr>
                 </tbody>
               </table>
@@ -109,23 +112,135 @@
           <div class="about-skills">
             <h3>スキル</h3>
             <div class="skills-grid">
-              <div class="skill-item">
+              <!-- HTML / CSS -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-work">実務</span>
+
                 <div class="skill-icon">
                   <i class="fab fa-html5"></i>
                 </div>
-                <span>HTML/CSS</span>
+
+                <h3>HTML / CSS</h3>
+
+                <p class="skill-description">
+                  実務で使用しました。
+                  レスポンシブ対応や、既存LPの修正経験があります。
+                </p>
               </div>
-              <div class="skill-item">
+
+              <!-- JavaScript -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-training">研修</span>
+
                 <div class="skill-icon">
-                  <i class="fab fa-js"></i>
+                  <i class="fab fa-js-square"></i>
                 </div>
-                <span>JavaScript</span>
+
+                <h3>JavaScript</h3>
+
+                <p class="skill-description">
+                  主に研修で使用しました。
+                  DOM操作やイベント処理、簡単なアニメーションの実装経験があります。
+                </p>
               </div>
-              <div class="skill-item">
+
+              <!-- React -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-training"
+                  >研修</span
+                >
+
                 <div class="skill-icon">
                   <i class="fab fa-react"></i>
                 </div>
-                <span>React</span>
+
+                <h3>React</h3>
+
+                <p class="skill-description">
+                  Wikiアプリの制作を通して、CRUD機能やReact Router、
+                  状態管理、API通信などを学習しました。
+                </p>
+              </div>
+
+              <!-- Git / GitHub -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-work">実務</span>
+
+                <div class="skill-icon">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+
+                <h3>Git / GitHub</h3>
+
+                <p class="skill-description">
+                  ソースコードのバージョン管理に使用しています。
+                  コミットやブランチ作成など、基本的な操作を行えます。
+                </p>
+              </div>
+
+              <!-- SQL -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-training">研修</span>
+
+                <div class="skill-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+
+                <h3>SQL</h3>
+
+                <p class="skill-description">
+                  研修で基礎を学習しました。
+                  SELECT、INSERT、UPDATE、DELETEなどの基本操作を経験しています。
+                </p>
+              </div>
+
+              <!-- Photoshop -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-creative">制作で使用</span>
+
+                <div class="skill-icon adobe-skill-icon adobe-photoshop">
+                  <span>Ps</span>
+                </div>
+
+                <h3>Adobe Photoshop</h3>
+
+                <p class="skill-description">
+                  写真の切り抜きや合成などに使用しております。
+                </p>
+              </div>
+
+              <!-- Illustrator -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-creative">制作で使用</span>
+
+                <div class="skill-icon adobe-skill-icon adobe-illustrator">
+                  <span>Ai</span>
+                </div>
+
+                <h3>Adobe Illustrator</h3>
+
+                <p class="skill-description">
+                  大学での制作物のデザインボード制作や、
+                  グラフィック制作に使用しました。
+                </p>
+              </div>
+
+              <!-- Lightroom -->
+              <div class="skill-card" tabindex="0">
+                <span class="skill-level skill-level-creative"
+                  >制作で使用</span
+                >
+
+                <div class="skill-icon adobe-skill-icon adobe-lightroom">
+                  <span>Lr</span>
+                </div>
+
+                <h3>Adobe Lightroom</h3>
+
+                <p class="skill-description">
+                  主にRAW現像に使用しています。
+                  複数の写真に統一感を持たせる調整も行っています。
+                </p>
               </div>
             </div>
           </div>
@@ -262,9 +377,9 @@
 
               <p class="timeline-description">
                 デザイン工学を学び、大学1年次には学科1位の成績を収めました。<br />
-                また、卒業制作では自動運転シニアカーの外装デザインをし、意匠権を取得しました。<br />
-                他にも約90名が所属する写真部で部長を務め、写真展の企画・運営や作品制作に取り組みました。<br />
-                これらの活動が評価され、「芝浦工業大学育英奨学金」と「エスアイテック育英奨学金」を計三回受賞しました。
+                卒業制作では自動運転シニアカーの外装をデザインし、意匠権を取得しました。<br /><br />
+                また、約90名が所属する写真部で部長を務め、写真展の企画・運営や作品制作に取り組みました。<br />
+                学業や課外活動への取り組みが評価され、二種の育英奨学生に計三度、表彰されました。
               </p>
             </div>
           </div>
