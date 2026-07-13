@@ -1,254 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ポートフォリオサイト - Webエンジニアとしての自己紹介">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ポートフォリオサイト - Webエンジニアとしての自己紹介"
+    />
     <title>Portfolio | NaotoYAMAZAKI</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Portfolio</a>
-            <button class="nav-toggle" id="nav-toggle" aria-label="メニュー">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="works.html" class="nav-link">Works</a></li>
-                <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">Portfolio</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="メニュー">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="works.html" class="nav-link">Works</a></li>
+          <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <p class="hero-greeting">Hello, I'm</p>
-                <h1 class="hero-name">Naoto YAMAZAKI</h1>
-                <p class="hero-title">Web Engineer</p>
-                <p class="hero-description">
-                    フロントエンドエンジニアです。
-                </p>
-                <div class="hero-buttons">
-                    <a href="works.html" class="btn btn-primary">View Works</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="hero-img-wrapper">
-                    <!-- 仮の画像プレースホルダー -->
-                    <div class="hero-placeholder">
-                        <span>Photo</span>
-                    </div>
-                </div>
-            </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Naoto YAMAZAKI</h1>
+          <p class="hero-title">Web Engineer</p>
+          <p class="hero-description">フロントエンドエンジニアです。</p>
+          <div class="hero-buttons">
+            <a href="works.html" class="btn btn-primary">View Works</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
         </div>
-        <div class="scroll-indicator">
-            <span>Scroll</span>
-            <div class="scroll-arrow"></div>
+        <div class="hero-image">
+          <div class="hero-img-wrapper">
+            <!-- 仮の画像プレースホルダー -->
+            <div class="hero-placeholder">
+              <span>Photo</span>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-arrow"></div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>プロフィール</h3>
-                    <div class="profile-table">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <th>氏名</th>
-                                    <td>山崎 尚登</td>
-                                </tr>
-                                <tr>
-                                    <th>年齢</th>
-                                    <td>25歳</td>
-                                </tr>
-                                <tr>
-                                    <th>所在地</th>
-                                    <td>神奈川県</td>
-                                </tr>
-                                <tr>
-                                    <th>希望職種</th>
-                                    <td>フロントエンドエンジニア</td>
-                                </tr>
-                                <tr>
-                                    <th>Web経験</th>
-                                    <td>研修・実務を含め約1年半</td>
-                                </tr>
-                                <tr>
-                                    <th>趣味</th>
-                                    <td>写真、車、旅行、オーディオ</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="about-skills">
-                    <h3>スキル</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-html5"></i>
-                            </div>
-                            <span>HTML/CSS</span>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-js"></i>
-                            </div>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-react"></i>
-                            </div>
-                            <span>React</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>プロフィール</h3>
+            <div class="profile-table">
+              <table>
+                <tbody>
+                  <tr>
+                    <th>氏名</th>
+                    <td>山崎 尚登</td>
+                  </tr>
+                  <tr>
+                    <th>年齢</th>
+                    <td>25歳</td>
+                  </tr>
+                  <tr>
+                    <th>所在地</th>
+                    <td>神奈川県</td>
+                  </tr>
+                  <tr>
+                    <th>希望職種</th>
+                    <td>フロントエンドエンジニア</td>
+                  </tr>
+                  <tr>
+                    <th>Web経験</th>
+                    <td>研修・実務を含め約1年半</td>
+                  </tr>
+                  <tr>
+                    <th>趣味</th>
+                    <td>写真、車、旅行、オーディオ</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="about-bio">
-    <h3>自己PR</h3>
-
-    <p>
-        株式会社Gizumoでフロントエンド開発の研修を受け、
-        HTML、CSS、JavaScript、Reactなどを学習しました。
-        その後、大手クレジットカード会社のランディングページ修正業務に携わり、
-        HTML、CSS、JavaScriptを使用した既存ページの修正を経験しました。
-    </p>
-
-    <p>
-        大学ではデザイン工学を学び、
-        見た目だけでなく、利用する人にとって分かりやすく
-        使いやすいデザインを考える姿勢を身につけました。
-        これまでの経験を活かし、
-        ユーザー視点を大切にしたフロントエンド開発に取り組みたいと考えています。
-    </p>
-</div>
+          </div>
+          <div class="about-skills">
+            <h3>スキル</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <span>HTML/CSS</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-js"></i>
+                </div>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="about-bio">
+          <h3>自己PR</h3>
+
+          <p>
+            株式会社Gizumoでフロントエンド開発の研修を受け、
+            HTML、CSS、JavaScript、Reactなどを学習しました。
+            その後、大手クレジットカード会社のランディングページ修正業務に携わり、
+            HTML、CSS、JavaScriptを使用した既存ページの修正を経験しました。
+          </p>
+
+          <p>
+            大学ではデザイン工学を学び、
+            見た目だけでなく、利用する人にとって分かりやすく
+            使いやすいデザインを考える姿勢を身につけました。
+            これまでの経験を活かし、
+            ユーザー視点を大切にしたフロントエンド開発に取り組みたいと考えています。
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
     <section class="experience" id="experience">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline">
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
 
-        <div class="timeline-content">
-            <span class="timeline-period">2025年12月 - 2026年2月</span>
+              <div class="timeline-content">
+                <span class="timeline-period">2025年12月 - 2026年2月</span>
 
-            <h3 class="timeline-title">
-                ランディングページ修正業務
-            </h3>
+                <h3 class="timeline-title">ランディングページ修正業務</h3>
 
-            <p class="timeline-company">
-                大手クレジットカード会社のWebサイト
-            </p>
+                <p class="timeline-company">
+                  大手クレジットカード会社のWebサイト
+                </p>
 
-            <p class="timeline-description">
-                HTML、CSS、JavaScriptを使用し、
-                既存ランディングページの修正業務に携わりました。
-                既存のデザインやコードへの影響を確認しながら、
-                指示内容に沿った修正と表示確認を行いました。
-            </p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-
-        <div class="timeline-content">
-            <span class="timeline-period">2025年9月 - 2025年12月</span>
-
-            <h3 class="timeline-title">
-                React発展課題
-            </h3>
-
-            <p class="timeline-company">
-                株式会社Gizumo フロントエンド研修
-            </p>
-
-            <p class="timeline-description">
-                Reactを使用したWikiアプリの制作に取り組みました。
-                記事の表示、作成、編集、削除などのCRUD機能に加え、
-                React Routerや状態管理、API通信などを学習しました。
-            </p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-
-        <div class="timeline-content">
-            <span class="timeline-period">2024年11月 - 2025年9月</span>
-
-            <h3 class="timeline-title">
-                フロントエンド基礎研修
-            </h3>
-
-            <p class="timeline-company">
-                株式会社Gizumo
-            </p>
-
-            <p class="timeline-description">
-                HTML、CSS、JavaScript、jQuery、React、Git、SQLなどを学習しました。
-                課題制作を通じて、画面実装やデータ操作、
-                バージョン管理などの基礎を身につけました。
-            </p>
-        </div>
-    </div>
-</div>
+                <p class="timeline-description">
+                  HTML、CSS、JavaScriptを使用し、
+                  既存ランディングページの修正業務に携わりました。
+                  既存のデザインやコードへの影響を確認しながら、
+                  指示内容に沿った修正と表示確認を行いました。
+                </p>
+              </div>
             </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+
+              <div class="timeline-content">
+                <span class="timeline-period">2025年9月 - 2025年12月</span>
+
+                <h3 class="timeline-title">React発展課題</h3>
+
+                <p class="timeline-company">
+                  株式会社Gizumo フロントエンド研修
+                </p>
+
+                <p class="timeline-description">
+                  Reactを使用したWikiアプリの制作に取り組みました。
+                  記事の表示、作成、編集、削除などのCRUD機能に加え、 React
+                  Routerや状態管理、API通信などを学習しました。
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+
+              <div class="timeline-content">
+                <span class="timeline-period">2024年11月 - 2025年9月</span>
+
+                <h3 class="timeline-title">フロントエンド基礎研修</h3>
+
+                <p class="timeline-company">株式会社Gizumo</p>
+
+                <p class="timeline-description">
+                  HTML、CSS、JavaScript、jQuery、React、Git、SQLなどを学習しました。
+                  課題制作を通じて、画面実装やデータ操作、
+                  バージョン管理などの基礎を身につけました。
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <p class="contact-intro">
-                お気軽にお問い合わせください。<br>
-                お仕事のご依頼、ご相談などお待ちしております。
-            </p>
-            <div class="contact-links">
-                <a href="mailto:naozaki334@gmail.com" class="contact-link">
-                    <i class="fas fa-envelope"></i>
-                    <span>naozaki334@gmail.com</span>
-                </a>
-                <a href="https://github.com/Naoto0211TT" target="_blank" rel="noopener" class="contact-link">
-                    <i class="fab fa-github"></i>
-                    <span>GitHub</span>
-                </a>
-
-            </div>
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-intro">
+          お気軽にお問い合わせください。<br />
+          お仕事のご依頼、ご相談などお待ちしております。
+        </p>
+        <div class="contact-links">
+          <a href="mailto:naozaki334@gmail.com" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            <span>naozaki334@gmail.com</span>
+          </a>
+          <a
+            href="https://github.com/Naoto0211TT"
+            target="_blank"
+            rel="noopener"
+            class="contact-link"
+          >
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Naoto YAMAZAKI. All Rights Reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2026 Naoto YAMAZAKI. All Rights Reserved.</p>
+      </div>
     </footer>
 
     <script src="js/main.js" defer></script>
-</body>
+  </body>
 </html>
